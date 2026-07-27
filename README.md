@@ -1,7 +1,13 @@
-# Minesweeper Game
+# 💣 Java Console Minesweeper 🚩
 
-- A lightweight, terminal-based implementation of the classic Minesweeper game written in Java.
+> _A lightweight, retro terminal-based implementation of the classic Minesweeper game, built in pure Java._
+
+---
+
+## 🎮 Previews
+
   <img src="./src/asset/minesweeper.png" width=50%>
+  <img src="./src/asset/Winning page.png" width=50%>
 
 ## Prerequisites
 
@@ -10,22 +16,28 @@
 
 ## How to play
 
-- ObjectiveReveal all non-mine safe cells on the grid without triggering a mine.
+### Objective: Reveal all non-mine safe cells on the grid without triggering a mine.
 
-- Game RulesThe Grid: The board is a $10 \times 10$ grid containing 10 hidden mines.
+### Game Rules
+
+- The Grid: The board is a $10 \times 10$ grid containing 10 hidden mines.
 
 - Symbols:. represents an unrevealed cell.0–8 represents a safe cell and indicates how many mines surround it in the 8 adjacent squares.\* represents a revealed mine.
 
 - Player Moves: Enter coordinates using row and column numbers (0 to 9) separated by a space.
 
-- Game Over:
-- Win: Successfully reveal all 90 safe squares.
-- Loss: Select a coordinate containing a mine. The console will output "boom!" and reveal all mine locations.
+### 🏆 Win / Loss Conditions
 
-## How to run
+- 🎉 **Victory:** [cite_start]Successfully clear all **90 safe squares**[cite: 6, 22, 54, 67].
+- 💥 **Game Over:** [cite_start]Select a mine coordinate. The terminal outputs `"boom!"` and reveals all hidden mines
 
-run this line on your terminal: java -cp src minesweeper.Main
+## 🚀 How to Run
 
-## Tech stack
+1. Open your terminal in the **project root directory**.
+2. Run the following command:
 
-- java
+```bash
+java -cp src minesweeper.Main
+
+
+```

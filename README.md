@@ -7,7 +7,7 @@
 ## 🎮 Previews
 
   <img src="./src/asset/minesweeper.png" width=50%>
-  <img src="./src/asset/Winning page.png" width=50%>
+  <img src="./src/asset/Winning page.png" width=60%>
 
 ## Prerequisites
 
@@ -28,8 +28,8 @@
 
 ### 🏆 Win / Loss Conditions
 
-- 🎉 **Victory:** [cite_start]Successfully clear all **90 safe squares**[cite: 6, 22, 54, 67].
-- 💥 **Game Over:** [cite_start]Select a mine coordinate. The terminal outputs `"boom!"` and reveals all hidden mines
+- 🎉 **Victory:** Successfully clear all **90 safe squares**.
+- 💥 **Game Over:** Select a mine coordinate. The terminal outputs `"boom!"` and reveals all hidden mines
 
 ## 🚀 How to Run
 

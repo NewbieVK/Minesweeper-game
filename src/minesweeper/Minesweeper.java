@@ -17,35 +17,6 @@ public class Minesweeper {
         this.revealedSafeCount = 0;
     }
 
-//     public void start() {
-//         try (Scanner scanner = new Scanner(System.in)) {
-
-//         System.out.println("=================================");
-//         System.out.println("   WELCOME TO JAVA MINESWEEPER   ");
-//         System.out.println("=================================");
-
-//         while (!gameOver) {
-//             board.render();
-//             System.out.print("Enter move (row col, e.g., '3 5'): ");
-
-//             if (scanner.hasNextInt()) {
-//                 int row = scanner.nextInt();
-//                 if (scanner.hasNextInt()) {
-//                     int col = scanner.nextInt();
-//                     makeMove(row, col);
-//                 } else {
-//                     System.out.println("⚠️ Invalid input! Please enter two integers.");
-//                     scanner.next();
-//                 }
-//             } else {
-//                 System.out.println("⚠️ Invalid input! Please enter two integers.");
-//                 scanner.next();
-//             }
-//         }
-
-//         handleGameEnd();
-//     }
-// }
 public void start() {
     try (Scanner scanner = new Scanner(System.in)) {
 
